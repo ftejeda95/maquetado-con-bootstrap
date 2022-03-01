@@ -1,0 +1,68 @@
+body{
+    background-color:#101012;
+    color: beige;
+}
+.tittle{
+    letter-spacing: 15px;
+}
+.textInicio{
+    color:#f7dfd3;
+
+}
+
+.section__tidalPlus{ width: 100%;
+    background-image: linear-gradient(to right, black 80%, rgb(150, 101, 10));
+ 
+}
+
+.premiun{ background-color: rgba(165, 96, 31, 0.844);
+    border-radius: 10px;
+    height:500px;
+    background-color: #f9b271;} 
+
+
+.sectionPlus{
+    padding:90px 80px;
+    margin: 0;
+
+}
+.tidalPlus{
+    color:#5d3426;
+    background-color: #f7dfd3;
+    padding:30px ;
+    height: 100%;
+}
+.pruebaGratis__inicio{
+    background-color: #f7dfd3;
+    color:black;
+    border: none;
+
+}
+.pruebaGratis{
+    background-color: #5d3426;
+    color:#f7dfd3;
+    border: none;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    padding-left: 50px;
+}
+.nav-link{
+    color: gray;
+    padding: 0px;
+}
+@media (min-width:320px) and (max-width:768px){
+    .sectionPlus{
+        padding:0;
+        margin: 0;
+        margin: 5px;
+    
+}
+.premiun{
+    margin: 5px;
+    height: 600px;
+    font-size: 18px;
+}
+}
